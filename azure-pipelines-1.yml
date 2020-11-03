@@ -13,7 +13,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: '9e006db2-ec5f-4ea0-a559-4f112194bdff'
+    azureResourceManagerConnection: '/subscriptions/4d87056b-7754-4b7f-b715-d3768349ef58/resourceGroups/Ainars'
     subscriptionId: '4d87056b-7754-4b7f-b715-d3768349ef58'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'Ainars'
