@@ -16,7 +16,7 @@ steps:
     azureResourceManagerConnection: 'newDNS-conn'
     subscriptionId: '4d87056b-7754-4b7f-b715-d3768349ef58'
     action: Create Or Update Resource Group
-    resourceGroupName: 'Ainars-rg'
+    resourceGroupName: 'Ainars'
     location: "westeurope"
     templateLocation: 'Linked artifact'
     csmFile: 'CreateDNSSrv/template.json'
